@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <h3>Форма регистрации</h3>
+        <p>
+            Введите логин: <input type="text" placeholder="логин" name="Login">
+        </p>
+        <p>
+            Введите пароль: <input type="password" placeholder="пароль" name="Pass">
+        </p>
+        <p>
+        <h3>Мои интересы</h3>
+        <label for="sport">
+            <input id="sport" type="checkbox" name="interes">Спорт
+        </label>
+        <label>
+            <input type="checkbox" name="interes" id="">Программирование
+        </label>
+        <label>
+            <input type="checkbox" name="interes" id="">Музыка
+        </label>
+        </p>
+        <p>
+        <h3>Род деятельности</h3>
+        <label>
+            <input type="radio" name="work">Не работаю
+        </label>
+        <label>
+            <input type="radio" name="work">Работаю
+        </label>
+        <label>
+            <input type="radio" name="work">Учусь
+        </label>
+        </p>
+        <h3>Город</h3>
+        <select name="sities" id="">
+            <option value="" style="text-align: center;">--Ваш город--</option>
+            <option value="Moskow">Москва</option>
+            <optgroup label="Тюмень">
+                <option value="east">Восточный</option>
+                <option value="center">Центральный</option>
+                <option value="kalinin">Калининский</option>
+            </optgroup>
+            <option value="Surgut">Сургут</option>
+        </select>
+        <p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Здесь можно оставить комментарии"></textarea>
+        </p>
+        <input type="submit" value="Отправить">
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+    </form>
+</body>
+
+</html>
